@@ -9,12 +9,12 @@ package Vista;
  *
  * @author OtakuGT
  */
-public class PrototipoAsignacionCursosAlumnos extends javax.swing.JInternalFrame {
+public class CursosAlumnos extends javax.swing.JInternalFrame {
 
     /**
      * Creates new form NewJInternalFrame
      */
-    public PrototipoAsignacionCursosAlumnos() {
+    public CursosAlumnos() {
         initComponents();
     }
 
