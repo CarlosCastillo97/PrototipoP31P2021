@@ -9,7 +9,7 @@ import java.awt.Dimension;
 
 /**
  *
- * @author visitante
+ * @author CarlosCastillo97
  */
 public class MDI extends javax.swing.JFrame {
 
@@ -67,7 +67,7 @@ public class MDI extends javax.swing.JFrame {
             }
         });
 
-        jMenuItem3.setText("Mantenimiento Vendedores");
+        jMenuItem3.setText("Mantenimiento Sedes");
         jMenuItem3.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jMenuItem3ActionPerformed(evt);
@@ -101,12 +101,12 @@ public class MDI extends javax.swing.JFrame {
     }//GEN-LAST:event_jMenu3ActionPerformed
 
     private void jMenuItem3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenuItem3ActionPerformed
-        // TODO add your handling code here:
         MantenimientoSedes ventana = new MantenimientoSedes();
         jDesktopPane1.add(ventana);
         Dimension desktopSize = jDesktopPane1.getSize();
         Dimension FrameSize = ventana.getSize();
         ventana.setLocation((desktopSize.width - FrameSize.width) / 2, (desktopSize.height - FrameSize.height) / 2);
+        ventana.setVisible(true);
     }//GEN-LAST:event_jMenuItem3ActionPerformed
 
     /**
