@@ -14,7 +14,7 @@ import Vista.MDI;
 
 /**
  *
- * @author visitante
+ * @author CarlosCastillo97
  */
 public class Login extends javax.swing.JFrame {
 
